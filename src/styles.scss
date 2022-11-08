@@ -1,0 +1,24 @@
+.sample-cls {
+  background-color: black !important;
+  border-radius: 0 !important;
+}
+
+.sample-cls svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.sample-cls svg * {
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.sample-cls .btn-disabled svg * {
+  fill: rgba(255, 255, 255, 0.6) !important;
+  stroke: rgba(255, 255, 255, 0.6) !important;
+}
+
+.sample-cls .default-toolbar-item:hover:not(.btn-disabled) svg * {
+  fill: rgba(255, 255, 255, 0.8) !important;
+  stroke: rgba(255, 255, 255, 0.8) !important;
+}
